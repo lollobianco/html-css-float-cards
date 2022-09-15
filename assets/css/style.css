@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
 
 *{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: 'Comfortaa', cursive;
+   
    font-weight: 700;
 }
 
@@ -12,9 +13,11 @@ header{
    text-align: center;
    padding: 50px 0px 60px 0px;
    color: #E53170;
+   font-family: 'Fredoka', sans-serif;
 }
 
 main{
+   font-family: 'Comfortaa', cursive;
    width: 65%;
    margin: auto;
 }
@@ -53,6 +56,10 @@ main{
    color: white;
    margin: 12px 50px 0px 15px;
    float: left;
+}
+
+.infos.name{
+   font-family: 'Fredoka', sans-serif;
 }
 
 .infos.email{
